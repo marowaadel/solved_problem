@@ -6,14 +6,9 @@ int main()
     string s;
     cin >>n;
     cin >>s;
-    char c[n];
-    for (i=0;i<n;i++)
-    {
-       c[i]=s[i];
-    }
     for (i=1;i<=n;i++)
     {
-        if (c[i] == c[i-1])
+        if (s[i] == s[i-1])
             sum +=1;
     }
     cout << sum << endl;
