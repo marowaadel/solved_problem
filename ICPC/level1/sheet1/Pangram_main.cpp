@@ -11,9 +11,9 @@ int main()
     for (int i=0;i<n;i++)
     {
         if (s[i] >= 97 && s[i] <= 122)
-            s[i] -=97;  //small char
+            s[i] -=97;  //small char index to 0 = s[i]-97
         else
-            s[i] -=65;   //32-97
+            s[i] -=65;   //convert capital to small and index to 0 = s[i]+32-97
         freq[s[i]] =1;
     }
     for (int i=0;i<26;i++)
