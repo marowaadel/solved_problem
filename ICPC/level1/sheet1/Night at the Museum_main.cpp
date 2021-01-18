@@ -4,7 +4,7 @@ int sum =0;
 int main()
 {
     string s;
-    int i,half,start;
+    int i,start;
     cin >>s;
     start='a';
     for (i=0;i<s.size();i++)
